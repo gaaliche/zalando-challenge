@@ -1,0 +1,22 @@
+{
+  "name": "zalando-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "selenium": "selenium-standalone start",
+    "e2e": "wdio ./wdio.conf.js",
+    "postinstall": "selenium-standalone install"
+  },
+  "author": "ggaaliche",
+  "license": "zalando",
+  "dependencies": {
+    "selenium-standalone": "^6.9.0"
+  },
+  "devDependencies": {
+    "wdio-jasmine-framework": "^0.3.2",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.2",
+    "webdriverio": "^4.0.7",
+    "chromedriver": "2.33.1"
+  }
+}
