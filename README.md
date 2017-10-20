@@ -27,5 +27,5 @@ Scenario: Create a automated test for following scenarios:
 - `npm run e2e`.
 
 # Note
-- Used browser : `Firefox`
+- Please use the browser `Firefox`.
 - Used language/framework : JS/WebdriverIO-Jasmine
