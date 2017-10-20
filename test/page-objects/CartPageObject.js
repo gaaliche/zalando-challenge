@@ -19,8 +19,8 @@ var CartPage = (function() {
 
         }
         this.addToWishList = function() {
-            return browser
-                .click(addToWishList)
+            browser.pause(500);
+            browser.click(addToWishList)
         }
         this.goToWishListPage = function () {
             return browser

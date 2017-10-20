@@ -12,7 +12,7 @@ var HomePage = (function() {
         }
 
         this.checkelements = function () {
-        	browser.waitForVisible(searchField, 5000)
+        	browser.waitForVisible(searchField, 8000)
         
         }
     };

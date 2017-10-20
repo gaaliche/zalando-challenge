@@ -24,8 +24,8 @@ Scenario: Create a automated test for following scenarios:
 - `npm install`
 
 # Start the e2e tests
+- In file "wdio.conf.js" select the desired browser : `browserName: 'firefox'` or `browserName: 'chrome'`
 - `npm run e2e`.
 
 # Note
-- Please use the browser `Firefox`.
 - Used language/framework : JS/WebdriverIO-Jasmine
